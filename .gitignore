@@ -1,0 +1,34 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Binaries
+home_iot
+sensor
+user_console
+*.exe
+
+# Python cache & report generation
+__pycache__/
+*.py[cod]
+build_full_report.py
+report_builder/
+*.docx
+2026.IPV.ESTGV-SO-Practical_Assignment-v11.pdf
+
+# Runtime generated data / logs (keep directories if needed)
+logs/*
+!logs/.gitkeep
+history/*
+!history/.gitkeep
+results/*
+!results/.gitkeep
+
+# Archives
+*.zip
+*.tar.gz
+
+# IDE and OS
+.vscode/
+.DS_Store
+Thumbs.db
